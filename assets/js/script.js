@@ -1,19 +1,14 @@
 $(function(){
 
- $('.features').mouseenter(function(){
-   $('.dropdown-menu').addClass('active');
- })
- $('.features').mouseleave(function(){
-  $('.dropdown-menu').removeClass('active');
- })
+  $('.dropdown').mouseenter(function(){
+		$(this).find('.dropdown-menu').addClass('active');
+	});
 
- $('.plans').mouseenter(function(){
-  $('.dropdown-menu-small').addClass('active');
-})
-$('.plans').mouseleave(function(){
- $('.dropdown-menu-small').removeClass('active');
-})
+  $('.dropdown').mouseleave(function(){
+    $(this).find('.dropdown-menu').removeClass('active');
+  })
 
+  
 
 })
 

@@ -98,13 +98,14 @@ ul li.dropdown{
 
 .dropdown-menu-small{
   position: absolute;
-  width: 200px;
+  width: 150px;
   background-color: black;
   left: -50px;
   top: 80px;
   box-shadow: 3px 3px 10px 3px rgba(0,0,0, .2);
   background-color: rgb(255, 255, 255);
   display: none;
+  border-radius: 20px;
 }
 
 .dropdown-menu-small.active{

@@ -58,6 +58,7 @@ header li a .logo{
 }
 
 .btn {
+  position: relative;
   padding: 15px 30px;
   border-radius: 10px;
   border: 0;
@@ -82,12 +83,13 @@ ul li.dropdown{
 
 .dropdown-menu{
   position: absolute;
-  width: 800px;
+  width: 1000px;
   background-color: rgb(255, 255, 255);
-  left: -160px;
+  left: -360px;
   top: 80px;
   box-shadow: 3px 3px 10px 3px rgba(0,0,0, .2);
   display: none;
+  border-radius: 20px;
 }
 
 .dropdown-menu.active{
@@ -113,3 +115,54 @@ ul li.dropdown{
   justify-content: left;
   line-height: 50px;
 }
+
+.dropdown-menu ul li:first-child{
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 10px;
+  color: rgb(182, 182, 182);
+}
+
+.dropdown-menu ul li i{
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(182, 182, 182);
+  padding: 5px;
+  margin-right: 5px;
+}
+
+
+.coming-soon{
+  color: rgb(218, 218, 218);
+  position: relative;
+}
+
+.coming-soon div{
+  color: blue;
+  text-transform: uppercase;
+  font-size: 9px;
+  position: absolute;
+  line-height: 9px;
+  bottom: 35px;
+  right: 25px;
+}
+
+.coming-soon div.coming-soon-one{
+  right: -25px;
+}
+
+#overlay {
+  position: absolute;
+  display: none;
+  width: 103px;
+  height: 48px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.192);
+  z-index: 2;
+  cursor: pointer;
+  border-radius: 10px;
+}
+

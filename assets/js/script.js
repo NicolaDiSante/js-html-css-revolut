@@ -8,13 +8,15 @@ $(function(){
     $(this).find('.dropdown-menu').removeClass('active');
   });
 
+  
+
   $('.btn.btn-gray').mouseenter(function(){
-    document.getElementById("overlay").style.display = "block";
+    $('.sign-in').addClass('overlay');
   })
 
   
   $('.btn.btn-gray').mouseleave(function(){
-    document.getElementById("overlay").style.display = "none";
+    $('.sign-in').removeClass('overlay');
   })
 
   

@@ -151,9 +151,8 @@ ul li.dropdown{
   right: -25px;
 }
 
-#overlay {
+.overlay {
   position: absolute;
-  display: none;
   width: 103px;
   height: 48px;
   top: 0;
